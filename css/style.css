@@ -29,20 +29,29 @@ a {
 
 /*hero banner*/
 .hero-banner {
-  display:flex;
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
 }
 
 #my-photo {
 
-  width: 250px;
-  height: 250px;
-  display:inline;
+
+  width: 400px;
+  height: 350px;
+
+}
+
+#subtitle{
+  margin-top: 150px;
+  font-size: 50px;
+  font-style: italic;
 }
 
 
 
-}
+
 
 h1,
 h2,
