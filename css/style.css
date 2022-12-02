@@ -8,24 +8,42 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
   background-color: bisque;
-  
+
 }
 
 /* main logo and nav */
 nav {
-display: flex;
-background-color: #1654247d;
-padding: 20px;
-height: 50px;
-justify-content: right;
-align-items: center;
+  display: flex;
+  background-color: #1654247d;
+  padding: 20px;
+  height: 50px;
+  justify-content: right;
+  align-items: center;
 
 }
-a{
+
+a {
   margin: 50px;
   font-size: large;
+}
+
+/*hero banner*/
+.hero-banner {
+  display:flex;
   
 }
+
+#my-photo {
+
+  width: 250px;
+  height: 250px;
+  display:inline;
+}
+
+
+
+}
+
 h1,
 h2,
 h3,
