@@ -73,13 +73,47 @@ a {
   grid-template-rows: 2fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-  "a1 a1"
-  "a2 a3"
-  "a4 a5"
+  "pre pre"
+  "se th"
+  "fo fi"
   
   ;}
 
+  #prework-study-guide{
+    grid-area: pre;
+    background-image:url(../images/02-hero-bg.jpg);
+  }
 
+  #second-application{
+    grid-area: se;
+    background-image: url(../images/02-portfolio-1.jpg);
+  }
+
+  #third-application{
+    grid-area: th;
+    background-image: url(../images/02-portfolio-2.jpg);
+  }
+
+  #forth-application{
+    grid-area: fo;
+    background-image: url(../images/02-portfolio-3.jpg);
+  }
+
+  #fifth-application{
+    grid-area: fi;
+    background-image: url(../images/02-portfolio-4.jpg);
+  }
+
+  .categoryGridArea{
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+
+  }
 
 h1,
 h2,
