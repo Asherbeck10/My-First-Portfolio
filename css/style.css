@@ -119,3 +119,29 @@ footer{
   display: flex;
   justify-content: center
 }
+@media only screen and (max-width: 800px) {
+nav {
+    display: none;
+  }
+}
+/*media query*/
+@media only screen and (max-width: 650px) {
+  .hero-banner {
+    display: none;
+  }
+  
+  #work {
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 80vw;
+    grid-template-areas:
+      "pre"
+      "se"
+      "th"
+      "fo"
+      "fi"
+    ;
+  }
+  #contact{
+    justify-content:space-between;
+  }
+}
