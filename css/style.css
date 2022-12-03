@@ -119,12 +119,14 @@ footer{
   display: flex;
   justify-content: center
 }
+
+/*media query-800px*/
 @media only screen and (max-width: 800px) {
 nav {
     display: none;
   }
 }
-/*media query*/
+/*media query-650px*/
 @media only screen and (max-width: 650px) {
   .hero-banner {
     display: none;
