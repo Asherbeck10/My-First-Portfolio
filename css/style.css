@@ -62,7 +62,7 @@ margin-top: 10px;
 
 /*portfolio container grid*/
 
-#work {
+#work-area {
   margin: 0px 5%;
   display: grid;
   grid-template-rows: 2fr 1fr 1fr;
@@ -130,7 +130,7 @@ nav {
     display: none;
   }
   
-  #work {
+  #work-area{
     grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 80vw;
     grid-template-areas:
