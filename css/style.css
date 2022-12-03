@@ -3,7 +3,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 40px;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
@@ -36,8 +36,8 @@ a {
 }
 
 #my-photo {
-
-
+margin-top: 10px;
+  margin-bottom: 100px;
   width: 400px;
   height: 350px;
 
@@ -51,12 +51,7 @@ a {
 }
 
 /*main*/
-.page-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 100px;
-}
+
 
 /*about me*/
 .page-section {
@@ -115,15 +110,12 @@ a {
 
   }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+  /*footer-contacts*/
+footer{
+  margin-top: 75px;
 }
 
-p {
-  margin: 0;
+#contact{
+  display: flex;
+  justify-content: center
 }
